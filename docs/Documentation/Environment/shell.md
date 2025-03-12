@@ -77,11 +77,11 @@ Note in both of these files we have a place where you are encouraged to add user
 ### Suggestions (Philosophy)
 We're going to discuss customizing your environment. This is done by editing these two files. Before we do that here are three suggestions.  
 
-1. 	If you are new to linux use the **nano** editor
+1. 	If you are new to linux, consider using the **nano** editor
 1. 	Make a backup of your current versions of the two files
 1. 	Make additions in external files
 
-Nano is an easy to learn and use text editor.  The official web page for nano is [https://www.nano-editor.org](https://www.nano-editor.org).  There are many on line tutorials.  There are other editors available but nano is a good starting point.
+Nano is an easy to learn and use text editor.  The official web page for nano is [https://www.nano-editor.org](https://www.nano-editor.org).  There are many on line tutorials.  There are other editors available but nano is a good starting point. Vim is another popular editor of choice, but has a learning curve. See [https://www.vim.org/](https://www.vim.org/) for more information.
 
 It is very easy to make mistakes when doing edits or you just might want to go back to a previous version.  So back it up.  Here are commands to do so.
 
@@ -381,3 +381,7 @@ compgen -c              list all commands available to you
 compgen -c | grep file  Show commands that have "file" as part of the
                         name
 ```
+## BASH Scripting
+Please see [BASH Scripting](/Documentation/Development/Languages/bash/) for a brief tutorial on scripting in BASH. Numerous online websites, tutorials, and books also exist on the topic.
+
+
